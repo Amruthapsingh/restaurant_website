@@ -1,0 +1,89 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff; 
+}
+
+.App {
+  text-align: center;
+}
+
+header {
+  background-color: #805c9a; 
+  padding: 1rem;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+main {
+  padding: 2rem;
+}
+
+#menu {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: #805c9a; 
+}
+
+p {
+  color: #1b1a1a;
+}
+
+.menu-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.menu-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem;
+  max-width: 200px;
+  background-color: #fff; 
+}
+
+.menu-card img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.menu-card p {
+  margin: 0;
+  font-weight: bold;
+  color: #805c9a; 
+}
+
+footer {
+  background-color: #805c9a; 
+  color: white;
+  padding: 1rem;
+}
